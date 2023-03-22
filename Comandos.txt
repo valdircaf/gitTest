@@ -1,0 +1,11 @@
+git init quando for iniciar o projeto
+
+git status = para ver arquivos que estão para ser versionados
+git add . = versionar os arquivos
+git commit -a -m "Sempre definir a mudança feita" = para comitar as mudanças
+git remote add origin "link do repositório" = linkar repositório local com o do github
+git branch = define um ponto de salvamento, onde você pode voltar depois
+git branch -M main = define como o branch principal, ou o main branch
+git push -u origin main = serve para enviar os commits para o repositório remoto 
+
+git checkout -b "teste" = cria e muda para um novo branch chamado "teste". Serve para fazer alterações no projeto sem mexer no branch principal
